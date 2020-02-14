@@ -1,8 +1,13 @@
 # Search-Project-Using-ElasticSearch-Spring-Boot-and-Swagger
 Search any property in large JSON files, Technologies used: Spring Boot, ElasticSearch, Swagger
 Steps to run this application:  
+# Pre-requisites 
+1. Elasticsearch 7.5.2
+2. Maven.
+3. Java8 and above.
+4. Spring Boot Version 2.2.4 and above.
 
-
+# Steps to run the application
 STEP 1. Download Elastic search (This is using elasticsearch 7.5.2) from https://www.elastic.co/downloads/elasticsearch
 Once download is completed unzip in desired folder. 
 
