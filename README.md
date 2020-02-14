@@ -24,7 +24,14 @@ Macos / Linux : bin/elasticsearch
 (Further help on how to run elasticsearch enginer can be found at 
 https://www.elastic.co/downloads/elasticsearch
 
-#STEP 4. Now go to the code directory and run following command:  mvn install Once it runs completely it will create a snapshot in your target file. go to the target folder and run following command.
+#STEP 4. This step we run our application,
+there are 2 ways
+1. Open the project in your favorite IDE (I have used Eclipse) and run the ZendeskSearchProjectApplication.java file as Java application.
+Or 
+2. Go to the code directory and run following command:  
+mvn install 
+Once it runs completely it will create a snapshot in your target file. 
+go to the target folder and run following command.
 java -jar demo-0.0.1-SNAPSHOT.jar
 
 #STEP 5. Now go onto the Browser and type  http://localhost:8080/swagger-ui.html#/
