@@ -14,7 +14,8 @@ Once download is completed unzip in desired folder.
 #STEP 2. Go to Config folder inside Elasticsearch and edit “elasticsearch.yml” go to line 17 and remove the # (uncomment the line) and edit with following line
 cluster.name: Ojas-Project 
 Now in the same file go to line 33 and edit the path.data line to following 
-path.data: <Exact Location of the place where this project is downloaded>
+
+path.data: "< Exact Location of the place where this project is downloaded >"
 
 e.g path.data: /Users/ojaskale/workspace/Spring-boot-elasticsearch-Example
 
